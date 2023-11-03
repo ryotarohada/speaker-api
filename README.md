@@ -24,6 +24,13 @@ source .venv/bin/activate
 deactivate
 ```
 
+## docker
+
+```sh
+docker-compose up -d --build # container up
+docker-compose down # container down
+```
+
 ## Install packages
 
 ```sh

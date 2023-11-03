@@ -1,0 +1,10 @@
+version: "3.0"
+
+services:
+  speaker_api:
+    container_name: "speaker_api"
+    volumes:
+      - ./:/app
+    build: .
+    ports:
+      - 8080:8080
